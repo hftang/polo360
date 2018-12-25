@@ -1,6 +1,5 @@
 body {
     background: url("../img/bd-bg.png") repeat-x;
-    height: 3000px;
 }
 
 .w {
@@ -168,14 +167,14 @@ body {
 .conact .sc,
 .conact .cc,
 .conact .nu {
-    width: 33%;
-    height: 300px;
+    width: 32%;
+
     float: left;
 
 }
 
 .conact .cc {
-    margin: 0 2px;
+    margin: 0 15px;
 }
 
 .conact .cc .txt {
@@ -194,6 +193,7 @@ body {
     width: 276px;
     height: 114px;
     background: url("../img/textarea.png") no-repeat;
+    _background-attachment: fixed;
     border: none;
     resize: none;
     overflow: auto;
@@ -221,4 +221,62 @@ body {
     border-bottom: 1px dashed #d3d3d3;
     padding: 42px 0 10px 0;
     margin-bottom: 15px;
+}
+
+.sc .p1{
+    color: #444444;
+    font: 12px/1 Grorgia;
+}
+
+.sc .icon{
+    margin-top: 3px;
+    font-size: 0px;
+}
+.sc .icon a{
+    margin-right: 4px ;
+}
+
+.sc .nl{
+    font:bold  18px/1 'Gill Sans MT';
+    color: #444444;
+    padding: 29px 0 10px;
+}
+.sc form{
+
+    margin-top: 24px;
+}
+.sc form input{
+    margin-top: 1px;
+    background: url(../img/input.png) no-repeat;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 1em;
+}
+
+.nu img{
+    float: left;
+    margin-right: 8px;
+}
+
+.nu p{
+    height: 58px;
+    overflow: hidden;
+    border-bottom: 1px dashed #ccc;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    color: #444444;
+    font: 12px/1 Grorgia;
+
+}
+.nu .lastbtn{
+    margin-top: 14px;
+}
+
+.footer{
+    height: 173px;
+    background: #000;
+    border-top: 10px solid #4c4c4c;
 }
