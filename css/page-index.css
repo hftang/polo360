@@ -1,0 +1,224 @@
+body {
+    background: url("../img/bd-bg.png") repeat-x;
+    height: 3000px;
+}
+
+.w {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 37px;
+    padding-bottom: 46px;
+    /*background-color: green;*/
+    position: relative;
+
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 20px 10px 20px;
+    text-align: center;
+    border-left: 1px #ccc dotted;
+}
+
+.nav li a {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Georgia;
+}
+
+.nav li a:hover {
+    color: #a1a1a1;
+    text-decoration: underline;
+}
+
+.nav li p {
+    margin: 5px 0;
+    color: #ccc;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #b7b7b7;
+}
+
+.banner {
+    height: 356px;
+    background: url("../img/banner-bg.png") no-repeat bottom center;
+    position: relative;
+}
+
+.banner .pointerDiv {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+}
+
+.banner .pointerDiv a {
+    float: left;
+    background: #000;
+    background: url("../img/pointer.png") no-repeat;
+    width: 17px;
+    height: 17px;
+    padding: 0 3px;
+
+}
+
+.banner .pointerDiv a.active,
+.banner .pointerDiv a:hover {
+    background: url("../img/pointer-active.png") no-repeat;
+}
+
+.content {
+    /*background: #000;*/
+}
+
+.content h1 {
+    padding: 10px 0px 20px 0px;
+    font: bold 24px Georgia;
+    text-align: center;
+    background: url("../img/line.png") no-repeat bottom center;
+    margin-bottom: 30px;
+}
+
+.content .pl,
+.content .cs,
+.content .uc {
+    width: 33%;
+    float: left;
+
+}
+
+.content .cs {
+    margin: 0 3px;
+}
+
+.content h3 {
+    color: #006699;
+    font: bold 16px Georgia;
+}
+
+.content p {
+    margin-top: 10px;
+    color: #8c8c8c;
+    font-size: 12px;
+    font-family: HeadLineA;
+}
+
+.content .pic {
+    width: 300px;
+    height: 200px;
+    background: url(../img/img-bg.png) no-repeat;
+    text-align: center;
+}
+
+.content .pic img {
+    padding: 12px 0 15px 0;
+
+}
+
+.content .p2 {
+    height: 92px;
+    color: #3e3e3e;
+    font: 13px Helvetica;
+    word-spacing: 0.2em;
+}
+
+.content .lm {
+    display: block;
+    width: 163px;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+    background: url("../img/btn1.png") no-repeat;
+    text-indent: 1em;
+    margin-bottom: 35px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.conact {
+    background: url("../img/line.png") no-repeat top center;
+    /*background-color: red;*/
+}
+
+.conact .sc,
+.conact .cc,
+.conact .nu {
+    width: 33%;
+    height: 300px;
+    float: left;
+
+}
+
+.conact .cc {
+    margin: 0 2px;
+}
+
+.conact .cc .txt {
+    width: 276px;
+    height: 33px;
+    background: url("../img/input.png") no-repeat;
+    border: none;
+    padding: 0 10px;
+    margin: 0 0 16px 0;
+    line-height: 33px;
+    /*ie6 input不随背景一起滚动*/
+    _background-attachment: fixed;
+}
+
+.conact .cc .tarea {
+    width: 276px;
+    height: 114px;
+    background: url("../img/textarea.png") no-repeat;
+    border: none;
+    resize: none;
+    overflow: auto;
+    padding: 10px;
+    margin: 0px;
+}
+
+.conact .btn {
+    width: 163px;
+    height: 32px;
+    background: url("../img/btn2.png") no-repeat;
+    border: none;
+    padding: 0px;
+    margin: 11px 0 23px 0;
+    color: #fff;
+    font: 13px Grorgia;
+    text-align: left;
+    text-indent: 1em;
+
+}
+
+.conact h2 {
+    color: #444;
+    font: 18px Grorgia;
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 42px 0 10px 0;
+    margin-bottom: 15px;
+}
